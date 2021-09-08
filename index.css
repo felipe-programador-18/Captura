@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+
+}
+.container{
+     max-width: 1000vh;
+     margin: auto;
+     
+    
+}
+header{
+    padding: 10px;
+    background:#48C5CE;
+    color: white;
+    text-align: center;
+        
+}
+.title{
+    font-size: 26px;
+}
+section{
+    padding: 20px;
+    background-image: url(./site.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin: 15px;
+
+}
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 16px;
+
+}
+input[type="submit"]{
+    color: white;
+    background: #48C5CE;
+    font-weight: bold;
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./arrow.jpg);
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+footer{
+    background: #202121;
+    padding:100px;
+    text-align: center;
+
+}
+.picture{
+    width: 200px;
+
+}
+.description{
+    color: white;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 20px;
+}
